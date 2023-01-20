@@ -30,8 +30,24 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li><strong>git status</strong>: checks what branch we are currently on</li>
+          <li><strong>git checkout -b branch-name</strong>: creates a new branch and switches to it</li>
+          <li><strong>git switch -c branch-name</strong>: is how you can save your work and copy it over
+            to a new branch if you fucked up and started writing a bunch of stuff in the wrong branch
+            and before you push or commit to that branch, you can switch to a different branch where
+            you want the stuff to go
+          </li>
+          <li><strong>git add -A</strong>: is to commit all files in the working branch</li>
+          <li><strong>git commit -m "Message about changes"</strong>: is how you commit the changes you made to
+            the working branch/ repo and also describes what changes you made with the message
+          </li>
+          <li><strong>git pull origin main</strong>: is the command you use before pushing your changes to the working
+            branch to sync your local branch with the remote branch in github
+            (Doesn't apply when you are working alone)
+          </li>
+          <li><strong>git push origin branch-name</strong>: is how you push all your changes to the branch and have
+            the changes show up in GitHub
+          </li>
         </ul>
       </section>
    
